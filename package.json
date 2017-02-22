@@ -4,7 +4,13 @@
   "description": "Downloads Modern.IE vm images and updates them based on MD5 Hashes",
   "main": "hello.js",
   "dependencies": {
+    "blessed": "^0.1.81",
+    "moment": "^2.17.1",
     "phantomjs-prebuilt": "^2.1.14",
+    "pretty-size": "^1.0.7",
+    "promise-retry": "^1.1.1",
+    "request": "^2.79.0",
+    "request-progress": "^3.0.0",
     "webdriverio": "^4.6.2"
   },
   "devDependencies": {},
