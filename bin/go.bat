@@ -1,1 +1,0 @@
-C:\Users\IEUser\bin\elevate.exe /k C:\Users\IEUser\bin\install-winrm.cmd
