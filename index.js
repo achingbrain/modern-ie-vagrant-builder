@@ -62,9 +62,4 @@ emitter.on('error', error => {
   process.exit(1)
 })
 
-//loadAvailable(emitter)
-
-emitter.emit('vm:download:success', {
-  vm: 'IE11 on Win7',
-  target: '/var/folders/m1/8m_hh8996718p5dxsx2zw0840000gn/T/IE11.Win7.Vagrant.zip'
-})
+loadAvailable(emitter)
